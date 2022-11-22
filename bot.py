@@ -13,7 +13,6 @@ starterbot_id = None
 RTM_READ_DELAY = 1 # 1 second delay between reading from RTM
 EXAMPLE_COMMAND = "do"
 MENTION_REGEX = "^<@(|[WU].+?)>(.*)"
-Token = "xoxp-4310940790453-4313787671747-4299414052295-8fc2abb1e5bc0b1b5bc9a1bbf8baf9f6"
 
 def parse_bot_commands(slack_events):
     """
